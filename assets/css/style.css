@@ -1,9 +1,109 @@
-*{
+* {
     margin: 0;
-	font-family: sans-serif;
-	box-sizing: border-box;
+    font-family: sans-serif;
+    box-sizing: border-box;
     color: #fff;
+    text-align: center;
 }
-.navbar{
+p{
+    margin: 0;
+}
+/* nav */
+
+.navbar {
+    background: #222;
+    margin: 0;
+    border: none;
+    border-radius: 0%;
+}
+
+.navbar-nav {
+    margin: auto;
+    width: 60%;
+    float: none;
+}
+
+.navbar-nav li {
+    display: inline-block;
+    float: none;
+    margin: 0 25px;
+}
+
+.navbar-nav a {
+    font-size: 1.5em;
+    color: chartreuse;
+}
+
+.navbar-nav a:hover {
+    color: chartreuse;
+    
+}
+
+/* hero section*/
+
+.hero {
+    height: 90vh;
+    width: 100%;
+    background: #000;
+    /*    background-image: url("/assets/img/Brooklyn-bridge.jpg");*/
+    background-size: contain;
+}
+.flex_hero{
+    height: calc(100% - 80px);
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* about section*/
+
+.about_section {
+    height: 80vh;
     background: #333;
+}
+
+.about_info {
+    height: 60vh;
+}
+
+.about_info img {
+    width: 40%;
+    display: inline-block;
+    float: left;
+
+}
+
+.about_info p {
+    display: inline-block;
+    text-align: justify;
+    font-size: 1.2em;
+    width: 58%;
+    
+}
+
+/* bike section */
+
+.bike_section {
+    height: 80vh;
+    background: #000;
+}
+
+/*bike pages 1 and 2 content*/
+.bike_content{
+    height: 78.7vh;
+    background-color: #000;
+}
+
+/* footer */
+
+.foot {
+    background: #222;
+    height:15vh;
+}
+
+.foot ul {
+    list-style: none;
 }
