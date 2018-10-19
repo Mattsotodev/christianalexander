@@ -5,21 +5,55 @@
     color: #fff;
     text-align: center;
 }
-p{
+
+p {
     margin: 0;
 }
+
+h1,
+h2,
+h3 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+/*   header */
+
+.header {
+    height: 25vh;
+    color: white;
+}
+
+.header img {
+    margin-top: 20px;
+    width: 20%;
+    height: 60%;
+}
+
+.header h2 {
+    color: black;
+    margin-top: 10px;
+}
+
 /* nav */
 
+.navbar,
+.navbar-default,
+.affix-top {
+    width: 75%;
+}
+
 .navbar {
-    background: #222;
-    margin: 0;
+    background-color: darkorange;
+    margin: 0 auto;
     border: none;
     border-radius: 0%;
+    border: solid 2px black;
 }
 
 .navbar-nav {
     margin: auto;
-    width: 60%;
     float: none;
 }
 
@@ -29,81 +63,39 @@ p{
     margin: 0 25px;
 }
 
-.navbar-nav a {
-    font-size: 1.5em;
-    color: chartreuse;
-}
-
-.navbar-nav a:hover {
-    color: chartreuse;
-    
-}
-
-/* hero section*/
-
-.hero {
-    height: 90vh;
+.con {
     width: 100%;
-    background: #000;
-    /*    background-image: url("/assets/img/Brooklyn-bridge.jpg");*/
-    background-size: contain;
+    padding:0 0 30px;
 }
-.flex_hero{
-    height: calc(100% - 80px);
-    background: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-/* about section*/
-
-.about_section {
-    height: 80vh;
-    background: #333;
-}
-
-.about_info {
-    height: 60vh;
-}
-
-.about_info img {
-    width: 40%;
-    display: inline-block;
-    float: left;
-
-}
-
-.about_info p {
-    display: inline-block;
-    text-align: justify;
-    font-size: 1.2em;
-    width: 58%;
-    
-}
-
-/* bike section */
-
-.bike_section {
-    height: 80vh;
-    background: #000;
-}
-
-/*bike pages 1 and 2 content*/
-.bike_content{
-    height: 78.7vh;
-    background-color: #000;
-}
-
 /* footer */
 
 .foot {
     background: #222;
-    height:15vh;
+    border-top: 1px solid #444;
 }
 
 .foot ul {
     list-style: none;
+    margin-top: 20px;
+}
+
+.foot ul li {
+    margin: 10px;
+    text-align: justify;
+}
+
+.foot li a {
+    color: chartreuse;
+    font-size: 1.4em;
+
+}
+
+.foot li a:hover {
+    color: firebrick;
+}
+
+@media screen and only (min-width:991px) {
+    .about_img img {
+        width: 30%;
+    }
 }

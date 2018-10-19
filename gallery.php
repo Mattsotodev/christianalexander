@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <title>Home</title>
     <!--Required metatag and stylesheet-->
@@ -9,27 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
     <!--Custom styles-->
     <link rel="stylesheet" href="assets/css/style.css">
-   
-</head>
-
+</head>    
 <body>
-    <!-- Nav Partial-->
-    <?php require_once('assets/partials/nav.php'); ?>
-
-    <!--content -->
-    <div class="container-fluid bike_content">
-
-    </div>
-    <!-- footer partial -->
-    <?php require_once('assets/partials/footer.php'); ?>
-    <!--Required scripts-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <!--Custom script-->
-    <script>
-
-
-    </script>
-
+<?php require_once('assets/partials/nav.php'); ?>
+<div class="con"></div>
+<?php require_once('assets/partials/footer.php'); ?>
 </body>
+</html>

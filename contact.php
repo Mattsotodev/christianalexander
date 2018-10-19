@@ -37,9 +37,7 @@
                     <p style="font-size: 1.5em;">
                         <br>
                     718-888-8888 <br>
-                    Store Hours: M-F 9AM-5PM <br>
-                    </p>
-                    
+                    Store Hours: M-F 9AM-5PM <br></p>
                 </div>
 
             <div class="col-md-5">
