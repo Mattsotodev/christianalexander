@@ -14,7 +14,7 @@
         .hero {
             margin: 0 auto;
             height: 85vh;
-            width: 75%;
+            width: 85%;
             background: #000;
             background-image: url("/assets/img/Brooklyn-bridge.jpg");
             /*            background-size: contain;*/

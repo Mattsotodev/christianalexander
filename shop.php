@@ -14,14 +14,14 @@
 
         .bike_section {
             height: 100%;
-            width: 75%;
+            width: 85%;
 
         }
 
         .bike_content {
             height: 80%;
             background: black;
-            width: 75%;
+            width: 85%;
             margin: auto;
         }
 
