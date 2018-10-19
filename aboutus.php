@@ -14,7 +14,7 @@
 
         .about_content {
             height: 100%;
-            width: 100%;
+            width: 85%;
             margin: auto;
             background: #000;
         }
